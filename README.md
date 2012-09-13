@@ -18,19 +18,19 @@ Extending methods
  foo.__aspect__ = ["name_of_property", undefined];
 ```
 
-<i><b>Binding event for ASPECT already create variable</b></i>
+<i><b>Add binding event for ASPECT already create variable</b></i>
 ```javascript
- foo.name_of_property.__aspect__ = { 
-    before: { 
+ foo.name_of_property.__aspect__.__before__ = { 
       get: function(current) { /* todo code here */ },
       set: function(current, settable) { /* todo code here */ }
-    },
-    after: { 
-      get: function(current) { /* todo code here */ }, 
-      set: function(current, settable) { /* todo code here */ }
-    }
  }
 ```
+
+<i><b>Get all binding event for ASPECT already create variable</b></i>
+```javascript
+ console.log(foo.name_of_property.__aspect__.__before__) // [ { get: /**/, set: /**/ } ]
+```
+
 
 <i><b>Delete ALL binded event for ASPECT already created variable</b></i>
 ```javascript
