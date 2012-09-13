@@ -36,3 +36,17 @@ Extending methods
 ```javascript
  foo.name_of_property.__aspect__ = [undefined]
 ```
+
+Howto to work library?
+===========
+<pre>
+
+ Object.prototype
+ |
+ +-- < __aspect__ >
+        ||
+        || 
+        |+--- < __before__ >
+        +---- < __after__ >
+
+</pre>
