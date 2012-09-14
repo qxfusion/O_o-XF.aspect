@@ -1,4 +1,4 @@
--O_o- JavaScript eXtension Aspect
+-O_o- eXtension Functionality Aspect
 ===========
 
 ***Annotation***
@@ -41,12 +41,11 @@ Howto to work library?
 ===========
 <pre>
 
- Object.prototype
- |
- +-- < __aspect__ >
-        ||
-        || 
-        |+--- < __before__ >
-        +---- < __after__ >
 
 </pre>
+
+Howto to work library?
+===========
+Double License
+1) EULA (for commercial usage, upon request)
+2) Creative Commons 3.0 Attribution - No-Commercial (BY-NC)
